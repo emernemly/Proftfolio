@@ -189,7 +189,7 @@ function sendemail() {
     message: document.getElementById("msg").value,
     email: document.getElementById("from").value,
   };
-  emailjs.send("service_t6nvw1e", "template_0x9h5h7", temParams).then((res) => {
+  emailjs.send("service_99nu01l", "template_057jwde", temParams).then((res) => {
     console.log("success", res.status);
   });
 
