@@ -857,6 +857,18 @@ body.dark-theme {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-ligth);
 }
+.skillForntEnd {
+  background-color: var(--container-color);
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 100%;
+  padding: 20px;
+  border-radius: 12px;
+}
+.ownSkill {
+  margin: 12px;
+}
 /*media queries*/
 @media screen and (max-width: 350px) {
   .container {
@@ -919,6 +931,10 @@ body.dark-theme {
     grid-template-columns: 0.6fr;
     justify-content: center;
   }
+}
+.button-git {
+  background-color: transparent !important;
+  border: 1px solid var(--first-color);
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -1006,7 +1022,7 @@ body.dark-theme {
     grid-template-columns: 0.5fr;
   }
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 218px);
     justify-content: center;
   }
   .services__icon {
@@ -1069,7 +1085,7 @@ body.dark-theme {
     transform: translateX(-6rem);
   }
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 238px);
   }
   .portfolio__content {
     column-gap: 5rem;
