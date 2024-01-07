@@ -1000,12 +1000,7 @@ body.dark-theme {
   .about__img {
     width: 257px;
   }
-  .btnilen {
-    margin-left: 197%;
-    margin-top: -23%;
-    height: 67px;
-    width: 109%;
-  }
+
   .about__description {
     text-align: initial;
   }
